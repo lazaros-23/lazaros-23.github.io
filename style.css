@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .journey, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -257,6 +257,91 @@ section .title::after{
     background: none;
 }
 
+
+/* journey section start */
+
+
+.journey .title::after{
+    content: "Your Chance";
+}
+
+
+.journey .journey-content h1{
+    text-align: justify; 
+    text-align: center;
+}
+
+.journey .journey-content h3{
+    text-align: justify;
+    text-align: center;
+    
+}
+
+.journey .journey-content h2{
+    text-align: justify;
+    text-align: center;
+    color: crimson;
+    
+}
+
+#h2black {
+    color: #000000;
+}
+.journey .journey-content p{
+    text-align: justify;
+    text-align: center;
+}
+
+
+#gumroad-button{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: crimson;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    
+  }
+ 
+  #gumroad-button:hover{
+    color: crimson;
+    background: none;
+  }
+/* 
+  .journey .max-width .journey-content .gumroad-button button{
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: crimson;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+  } */
+
+
+
+  h1 .h1color {
+    color: crimson;}
+ 
 /* services section styling */
 .services, .teams{
     color:#fff;
